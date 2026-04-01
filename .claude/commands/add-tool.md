@@ -19,7 +19,8 @@ $ARGUMENTS — The field name or slug (e.g., "uiux-design" or "UIUX Design")
    - **Adoption level** — experimental, emerging, growing, or widespread
    - **Pricing** — free, freemium, paid, or enterprise
 
-5. Add the new entry to `tools.yml` in alphabetical order within its category
+5. If you need to verify the tool exists or check its current status, use the `/playwright-browser` skill to browse the tool's URL. Prefer Playwright over WebSearch/WebFetch for web research.
+6. Add the new entry to `tools.yml` in alphabetical order within its category
 6. Set `added` to today's date
 7. Set `last_verified` to today's date
 
