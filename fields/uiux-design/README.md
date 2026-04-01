@@ -1,13 +1,17 @@
-# UIUX Design — AI Impact Report
-
 <div align="center">
 
-**How AI is transforming UIUX Design — a living, community-maintained report.**
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:06b6d4,100:0f172a&height=200&section=header&text=UIUX%20Design&fontSize=60&fontAlignY=35&animation=fadeIn&fontColor=f8fafc&desc=AI%20Impact%20Report&descAlignY=55&descSize=18" width="100%"/>
 
-[![Status](https://img.shields.io/badge/status-published-brightgreen)]()
-[![Last Verified](https://img.shields.io/badge/last_verified-2026--04--01-blue)]()
-[![Confidence](https://img.shields.io/badge/confidence-high-brightgreen)]()
-[![Contributors](https://img.shields.io/badge/contributors-1-green)]()
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=80&lines=AI+automated+the+production+layer+of+design;But+amplified+the+need+for+strategic+UX+thinking;The+role+is+shifting+from+%22make+it%22+to+%22decide+what+to+make%22)](https://git.io/typing-svg)
+
+<p>
+  <img src="https://img.shields.io/badge/Status-Published-22c55e?style=flat-square&labelColor=0f172a" alt="Status"/>
+  <img src="https://img.shields.io/badge/Last_Verified-2026--04--01-06b6d4?style=flat-square&labelColor=0f172a" alt="Last Verified"/>
+  <img src="https://img.shields.io/badge/Confidence-High-22c55e?style=flat-square&labelColor=0f172a" alt="Confidence"/>
+  <img src="https://img.shields.io/badge/Tools_Tracked-12-06b6d4?style=flat-square&labelColor=0f172a" alt="Tools"/>
+  <img src="https://img.shields.io/badge/Practitioner_Voices-4-06b6d4?style=flat-square&labelColor=0f172a" alt="Voices"/>
+  <a href="../../docs/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-06b6d4?style=flat-square&labelColor=0f172a&logo=github&logoColor=06b6d4" alt="Contribute"/></a>
+</p>
 
 </div>
 
@@ -15,79 +19,115 @@
 
 ## 📊 AI Adoption Snapshot
 
+<div align="center">
+
 | Dimension | Level | Notes |
 |:----------|:-----:|:------|
-| 🛠 Tool Maturity | **High** | Major design tools (Figma, Adobe) have shipped native AI features |
-| ⚙️ Task Automation | **Partial** | Production work automated, strategy and research untouched |
-| 🏢 Industry Adoption | **Widespread** | 70%+ of design teams using at least one AI tool (2026) |
-| 💼 Job Market Impact | **Shifting** | Junior production roles shrinking, senior strategic roles growing |
-| ⚠️ Threat Level | **Medium** | Augmentation story, not replacement — but the floor is rising fast |
+| 🛠 **Tool Maturity** | `High` | Major design tools (Figma, Adobe) have shipped native AI features |
+| ⚙️ **Task Automation** | `Partial` | Production work automated, strategy and research untouched |
+| 🏢 **Industry Adoption** | `Widespread` | 70%+ of design teams using at least one AI tool (2026) |
+| 💼 **Job Market Impact** | `Shifting` | Junior production roles shrinking, senior strategic roles growing |
+| ⚠️ **Threat Level** | `Medium` | Augmentation story, not replacement — but the floor is rising fast |
+
+</div>
 
 ---
 
 ## Overview
 
-AI has automated the production layer of design (wireframes, mockups, layout) but amplified the need for strategic UX thinking, user research, and design systems governance.
+The field is **bifurcating**. Designers who primarily pushed pixels are seeing their most time-consuming tasks automated by tools like **Figma AI** and **Galileo AI**. Meanwhile, designers who conduct user research, define product strategy, and govern design systems are finding their work more valued than ever.
 
-The field is bifurcating. Designers who primarily pushed pixels are seeing their most time-consuming tasks automated by tools like Figma AI and Galileo AI. Meanwhile, designers who conduct user research, define product strategy, and govern design systems are finding their work more valued than ever.
-
-The net effect is not fewer designers, but a **different kind of designer**. The role is shifting from *"make this look right"* to *"decide what to make and why."*
+The net effect is not fewer designers, but a **different kind of designer**. The role is shifting from *"make this look right"* to *"decide what to make and why."* Entry-level positions now require prompt engineering and AI output evaluation skills that didn't exist two years ago.
 
 ---
 
 ## 🤖 AI Tools Landscape
 
 ### Design & Prototyping
+
+<div align="center">
+
 | Tool | What It Does | Adoption | Pricing |
 |:-----|:-------------|:--------:|:-------:|
-| [Figma AI](https://figma.com) | Auto-layout generation, content filling, design suggestions | 🟢 Widespread | Included |
-| [Galileo AI](https://usegalileo.ai) | Generates high-fidelity UI designs from text descriptions | 🟡 Growing | Freemium |
-| [Uizard](https://uizard.io) | Converts hand-drawn sketches into editable wireframes | 🟡 Growing | Freemium |
-| [Relume](https://relume.io) | AI-generated sitemaps and wireframes from project briefs | 🟡 Growing | Paid |
+| [**Figma AI**](https://figma.com) | Auto-layout generation, content filling, design suggestions | ![Widespread](https://img.shields.io/badge/Widespread-22c55e?style=flat-square&labelColor=0f172a) | Included |
+| [**Galileo AI**](https://usegalileo.ai) | Generates high-fidelity UI designs from text descriptions | ![Growing](https://img.shields.io/badge/Growing-eab308?style=flat-square&labelColor=0f172a) | Freemium |
+| [**Uizard**](https://uizard.io) | Converts hand-drawn sketches into editable wireframes | ![Growing](https://img.shields.io/badge/Growing-eab308?style=flat-square&labelColor=0f172a) | Freemium |
+| [**Relume**](https://relume.io) | AI-generated sitemaps and wireframes from project briefs | ![Growing](https://img.shields.io/badge/Growing-eab308?style=flat-square&labelColor=0f172a) | Paid |
+
+</div>
 
 ### Research & Testing
+
+<div align="center">
+
 | Tool | What It Does | Adoption | Pricing |
 |:-----|:-------------|:--------:|:-------:|
-| [Maze AI](https://maze.co) | Auto-generates research reports from usability test data | 🟡 Growing | Freemium |
-| [Attention Insight](https://attentioninsight.com) | AI-predicted attention heatmaps without user testing | 🟠 Emerging | Paid |
-| [Notably](https://notably.ai) | Auto-tags and clusters qualitative research data | 🟠 Emerging | Paid |
-| [Synthetic Users](https://syntheticusers.com) | AI-simulated user interviews for hypothesis testing | ⚪ Experimental | Paid |
+| [**Maze AI**](https://maze.co) | Auto-generates research reports from usability test data | ![Growing](https://img.shields.io/badge/Growing-eab308?style=flat-square&labelColor=0f172a) | Freemium |
+| [**Attention Insight**](https://attentioninsight.com) | AI-predicted attention heatmaps without user testing | ![Emerging](https://img.shields.io/badge/Emerging-f97316?style=flat-square&labelColor=0f172a) | Paid |
+| [**Notably**](https://notably.ai) | Auto-tags and clusters qualitative research data | ![Emerging](https://img.shields.io/badge/Emerging-f97316?style=flat-square&labelColor=0f172a) | Paid |
+| [**Synthetic Users**](https://syntheticusers.com) | AI-simulated user interviews for hypothesis testing | ![Experimental](https://img.shields.io/badge/Experimental-94a3b8?style=flat-square&labelColor=0f172a) | Paid |
+
+</div>
 
 ### Content & Assets
+
+<div align="center">
+
 | Tool | What It Does | Adoption | Pricing |
 |:-----|:-------------|:--------:|:-------:|
-| [Midjourney](https://midjourney.com) | Image generation for concept art and visual exploration | 🟢 Widespread | Paid |
-| [Writer](https://writer.com) | UX copy generation with brand voice consistency | 🟡 Growing | Freemium |
+| [**Midjourney**](https://midjourney.com) | Image generation for concept art and visual exploration | ![Widespread](https://img.shields.io/badge/Widespread-22c55e?style=flat-square&labelColor=0f172a) | Paid |
+| [**Writer**](https://writer.com) | UX copy generation with brand voice consistency | ![Growing](https://img.shields.io/badge/Growing-eab308?style=flat-square&labelColor=0f172a) | Freemium |
+
+</div>
 
 ### Design to Code
+
+<div align="center">
+
 | Tool | What It Does | Adoption | Pricing |
 |:-----|:-------------|:--------:|:-------:|
-| [Builder.io](https://builder.io) | Converts Figma designs to responsive, production-ready code | 🟡 Growing | Freemium |
-| [Locofy](https://locofy.ai) | Design files to production frontend code with component mapping | 🟡 Growing | Freemium |
+| [**Builder.io**](https://builder.io) | Converts Figma designs to responsive, production-ready code | ![Growing](https://img.shields.io/badge/Growing-eab308?style=flat-square&labelColor=0f172a) | Freemium |
+| [**Locofy**](https://locofy.ai) | Design files to production frontend code with component mapping | ![Growing](https://img.shields.io/badge/Growing-eab308?style=flat-square&labelColor=0f172a) | Freemium |
 
-> **[See full tools list →](tools.yml)** · [Add a tool](../../docs/CONTRIBUTING.md#add-a-tool)
+</div>
+
+> **[See full tools list →](tools.yml)** · **[Add a tool →](../../docs/CONTRIBUTING.md#add-a-tool)**
 
 ---
 
-## ✅ What AI Can Do / ❌ What It Can't
+## ✅ What AI Can Do
 
-### Fully Automated
-| Task | Details |
-|:-----|:--------|
-| 📐 Responsive layout generation | Desktop → tablet/mobile variants produced automatically |
-| 💻 Design-to-code conversion | Pixel-accurate frontend code from Figma frames |
-| 📝 Placeholder content filling | Realistic contextual content replacing Lorem Ipsum |
-| 🎨 Basic asset generation | Icons, illustrations, stock imagery from text prompts |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Partially Automated (Human + AI)
+#### Fully Automated
+*AI does the work, humans review.*
+
+- 📐 **Responsive layout generation** — Desktop → tablet/mobile variants produced automatically
+- 💻 **Design-to-code conversion** — Pixel-accurate frontend code from Figma frames
+- 📝 **Placeholder content filling** — Realistic contextual content replacing Lorem Ipsum
+- 🎨 **Basic asset generation** — Icons, illustrations, stock imagery from text prompts
+
+</td>
+<td width="50%" valign="top">
+
+#### Partially Automated
+*Humans direct, AI produces drafts.*
+
 | Task | AI Handles | Human Handles |
 |:-----|:-----------|:-------------|
-| Wireframing | Draft generation from prompts | Evaluation, iteration, feasibility |
-| Component variations | Generating options | Evaluating against design system & user needs |
-| Accessibility checks | Contrast, touch targets, alt text (~60% coverage) | Edge cases, WCAG deep compliance |
-| UX copy | First drafts of microcopy | Tone, clarity, edge cases |
+| Wireframing | Draft from prompts | Evaluation & iteration |
+| Components | Generating options | Design system fit |
+| A11y checks | ~60% coverage | Edge cases, WCAG |
+| UX copy | First drafts | Tone & edge cases |
 
-### ❌ Still Fully Human
+</td>
+</tr>
+</table>
+
+## ❌ What Still Requires Humans
+
 | Task | Why AI Can't Do This |
 |:-----|:---------------------|
 | **User interviews** | Requires empathy, follow-up instincts, reading body language, building rapport |
@@ -97,73 +137,138 @@ The net effect is not fewer designers, but a **different kind of designer**. The
 | **Ethical design decisions** | Dark patterns, inclusivity tradeoffs require moral reasoning |
 | **Novel interaction paradigms** | Inventing new models (like pinch-to-zoom) requires creative leaps AI doesn't make |
 
-> **[Read full automation analysis →](automation.md)**
+> **[Read full analysis →](automation.md)**
 
 ---
 
 ## 📈 Skills Impact
 
-### ⬆️ Skills Gaining Value
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Priority | Skill | Why |
-|:---------|:------|:----|
-| 🔴 High | **Prompt-driven design** | Every major tool now takes text input — your prompts are your wireframes |
-| 🔴 High | **AI output evaluation** | Knowing *why* an AI screen is bad UX matters more than generating screens |
-| 🔴 High | **Design systems thinking** | AI generates components; someone must govern the system they belong to |
-| 🟡 Medium | **Data literacy** | AI surfaces patterns in analytics — you must interpret them correctly |
-| 🟡 Medium | **Conversational UX** | AI-powered interfaces are the fastest-growing design surface |
-| 🟡 Medium | **Research strategy** | Value shifts from tactical analysis to designing the right studies |
+#### ⬆️ Gaining Value
 
-### ⬇️ Skills Losing Value
+```
+Prompt-driven design    ████████████████████  HIGH
+AI output evaluation    ████████████████████  HIGH
+Design systems thinking ████████████████████  HIGH
+Data literacy           ██████████████░░░░░░  MED
+Conversational UX       ██████████████░░░░░░  MED
+Research strategy       ██████████████░░░░░░  MED
+```
 
-| Skill | Why | Pivot To |
-|:------|:----|:---------|
-| Pixel-perfect mockups | AI generates production-ready mockups from prompts | AI output evaluation & design QA |
-| Basic responsive layout | AI auto-generates responsive variants | Complex adaptive challenges |
-| Simple icon/illustration | AI generates from text descriptions | Brand illustration systems |
-| Manual wireframing | AI produces wireframes faster | Problem framing & requirements definition |
+</td>
+<td width="50%" valign="top">
 
-### 🟰 Unchanged
-User interviewing · Stakeholder management · Workshop facilitation · Deep accessibility expertise
+#### ⬇️ Losing Value
+
+| Skill | Pivot To |
+|:------|:---------|
+| Pixel-perfect mockups | AI output evaluation & design QA |
+| Basic responsive layout | Complex adaptive challenges |
+| Simple icon/illustration | Brand illustration systems |
+| Manual wireframing | Problem framing & requirements |
+
+</td>
+</tr>
+</table>
+
+#### 🟰 Unchanged
+`User interviewing` · `Stakeholder management` · `Workshop facilitation` · `Deep accessibility expertise`
 
 > **[Read full skills analysis →](skills.md)**
 
 ### 📚 Recommended Learning Path
-1. **Week 1** — Learn prompt-driven design with Figma AI or Galileo AI
-2. **Weeks 2–3** — Build AI output evaluation skills using Nielsen's heuristics
-3. **Month 2** — Study a major design system (Polaris, Atlassian) and governance
-4. **Month 3** — Learn data literacy with a product analytics tool
-5. **Ongoing** — Follow conversational UX and AI interface design developments
+
+| Order | Skill | Timeline |
+|:-----:|:------|:---------|
+| 1️⃣ | Prompt-driven design (Figma AI / Galileo AI) | Week 1 |
+| 2️⃣ | AI output evaluation (Nielsen's heuristics) | Weeks 2–3 |
+| 3️⃣ | Design systems (Polaris, Atlassian, M3) | Month 2 |
+| 4️⃣ | Data literacy (product analytics) | Month 3 |
+| 🔄 | Conversational UX & AI interface design | Ongoing |
 
 ---
 
-## 💼 Career Impact
+## 💼 Career & Salary Trends
 
-### Salary Landscape
+<div align="center">
 
 | Role | Range (USD) | Trend |
 |:-----|:------------|:-----:|
-| Junior UI Designer | $55K–75K | 📉 Declining |
-| Mid UX Designer | $85K–120K | ➡️ Stable |
-| Senior UX Designer | $120K–160K | 📈 Growing |
-| UX Research Lead | $140K–180K | 📈 Growing |
-| Design Systems Lead | $150K–190K | 📈 Growing |
-| Head of Design / VP | $180K–250K+ | ➡️ Stable |
+| Junior UI Designer | $55K–75K | ![Declining](https://img.shields.io/badge/↓_Declining-ef4444?style=flat-square&labelColor=0f172a) |
+| Mid UX Designer | $85K–120K | ![Stable](https://img.shields.io/badge/→_Stable-94a3b8?style=flat-square&labelColor=0f172a) |
+| Senior UX Designer | $120K–160K | ![Growing](https://img.shields.io/badge/↑_Growing-22c55e?style=flat-square&labelColor=0f172a) |
+| UX Research Lead | $140K–180K | ![Growing](https://img.shields.io/badge/↑_Growing-22c55e?style=flat-square&labelColor=0f172a) |
+| Design Systems Lead | $150K–190K | ![Growing](https://img.shields.io/badge/↑_Growing-22c55e?style=flat-square&labelColor=0f172a) |
+| Head of Design / VP | $180K–250K+ | ![Stable](https://img.shields.io/badge/→_Stable-94a3b8?style=flat-square&labelColor=0f172a) |
 
-### Roles Emerging
-| Role | What It Does |
-|:-----|:-------------|
-| **AI Design Director** | Oversees AI tool integration, quality standards, output governance at scale |
-| **Conversational UX Designer** | Designs AI-first interfaces: chatbots, voice agents, copilots |
-| **Design Systems Engineer** | Hybrid design/engineering — builds infrastructure for consistent AI output |
-| **Design QA Specialist** | Reviews AI-generated designs for usability, accessibility, brand compliance |
+</div>
+
+### New Roles Emerging
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### AI Design Director
+> Oversees AI tool integration, quality standards, and output governance at scale
+
+`Leadership` `AI Governance` `Quality`
+
+</td>
+<td width="50%" valign="top">
+
+#### Conversational UX Designer
+> Designs AI-first interfaces: chatbots, voice agents, copilots
+
+`AI-Native` `Voice` `Chat`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Design Systems Engineer
+> Hybrid design/engineering — builds infrastructure for consistent AI-generated output
+
+`Technical` `Systems` `Infrastructure`
+
+</td>
+<td width="50%" valign="top">
+
+#### Design QA Specialist
+> Reviews AI-generated designs for usability, accessibility, and brand compliance
+
+`Quality` `Accessibility` `Review`
+
+</td>
+</tr>
+</table>
 
 ### Hiring Shifts (2024 → 2026)
-| Now Required | No Longer Required |
-|:-------------|:-------------------|
-| AI design tool experience (Figma AI, Galileo) | Deep multi-tool proficiency |
-| Ability to evaluate AI-generated designs | Pixel-perfect portfolio pieces |
-| Design systems governance experience | — |
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### ✅ Now Required
+- AI design tool experience (Figma AI, Galileo)
+- Ability to evaluate AI-generated designs
+- Design systems governance experience
+
+</td>
+<td width="50%" valign="top">
+
+#### ❌ No Longer Required
+- Deep multi-tool proficiency
+- Pixel-perfect portfolio pieces
+- Production speed as differentiator
+
+</td>
+</tr>
+</table>
 
 > **[Read full career analysis →](career.md)**
 
@@ -172,18 +277,18 @@ User interviewing · Stakeholder management · Workshop facilitation · Deep acc
 ## 🗣 Voices From The Field
 
 > *"I used to spend 40% of my time on wireframes. Now I spend that time arguing about whether we should build the feature at all. Honestly, it's a better use of my time."*
-> — Senior Product Designer, Series B startup, 2026-03
+> — **Senior Product Designer**, Series B startup, 2026-03
 
 > *"The junior designers we're hiring now need totally different skills. I don't care if you can push pixels in Figma. I care if you can look at an AI-generated screen and tell me what's wrong with it."*
-> — Design Director, enterprise SaaS, 2026-02
+> — **Design Director**, enterprise SaaS, 2026-02
 
 > *"Synthetic user tools are useful for generating hypotheses but dangerous if you mistake them for real research."*
-> — UX Researcher, health-tech startup, 2026-01
+> — **UX Researcher**, health-tech startup, 2026-01
 
 > *"AI made me a better designer, not a lazier one. I generate 10 layout options in 5 minutes and spend an hour thinking about which one actually solves the user's problem."*
-> — Mid-level UX Designer, fintech, 2026-03
+> — **Mid-level UX Designer**, fintech, 2026-03
 
-> [**Share your perspective →**](../../docs/CONTRIBUTING.md#add-a-voice)
+**[Share your perspective →](../../docs/CONTRIBUTING.md#add-a-voice)**
 
 ---
 
@@ -199,24 +304,28 @@ User interviewing · Stakeholder management · Workshop facilitation · Deep acc
 
 ---
 
-## 🤝 Contributing
+## 🤝 How To Contribute
 
-This report is maintained by the community. Here's how you can help:
+<div align="center">
 
 | Action | Difficulty | Time |
 |:-------|:---------:|:----:|
-| [Add an AI tool](../../docs/CONTRIBUTING.md#add-a-tool) | 🟢 Easy | 2 min |
-| [Share a practitioner quote](../../docs/CONTRIBUTING.md#add-a-voice) | 🟢 Easy | 1 min |
-| [Log a field update](../../docs/CONTRIBUTING.md#add-an-update) | 🟢 Easy | 3 min |
-| [Add a research paper](../../docs/CONTRIBUTING.md#add-a-paper) | 🟡 Medium | 5 min |
-| [Improve analysis sections](../../docs/CONTRIBUTING.md#fix-content) | 🔴 Advanced | 30 min |
+| [Add an AI tool](../../docs/CONTRIBUTING.md#add-a-tool) | ![Easy](https://img.shields.io/badge/Easy-22c55e?style=flat-square&labelColor=0f172a) | 2 min |
+| [Share a practitioner quote](../../docs/CONTRIBUTING.md#add-a-voice) | ![Easy](https://img.shields.io/badge/Easy-22c55e?style=flat-square&labelColor=0f172a) | 1 min |
+| [Log a field update](../../docs/CONTRIBUTING.md#add-an-update) | ![Easy](https://img.shields.io/badge/Easy-22c55e?style=flat-square&labelColor=0f172a) | 3 min |
+| [Add a research paper](../../docs/CONTRIBUTING.md#add-a-paper) | ![Medium](https://img.shields.io/badge/Medium-eab308?style=flat-square&labelColor=0f172a) | 5 min |
+| [Improve analysis sections](../../docs/CONTRIBUTING.md#fix-content) | ![Expert](https://img.shields.io/badge/Expert-ef4444?style=flat-square&labelColor=0f172a) | 30 min |
+
+</div>
 
 ---
 
 <div align="center">
 
-**[← Back to All Fields](../)**&nbsp;&nbsp;·&nbsp;&nbsp;**[AI Field Impact Home](../../)**
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:06b6d4,100:0f172a&height=120&section=footer" width="100%"/>
 
-*Last updated: 2026-04-01 · Maintained by [@ketanshetye](https://github.com/ketanshetye)*
+**[← All Fields](../)**&nbsp;&nbsp;·&nbsp;&nbsp;**[AI Field Impact Home](../../)**
+
+<sub>Last updated: 2026-04-01 · Maintained by <a href="https://github.com/ketanshetye">@ketanshetye</a> · Part of <a href="../../">AI Field Impact</a></sub>
 
 </div>
