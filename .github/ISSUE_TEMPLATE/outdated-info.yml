@@ -1,0 +1,47 @@
+name: Report Outdated Information
+description: Flag incorrect or stale information in the knowledge base
+title: "[Outdated]: "
+labels: ["outdated", "needs-review"]
+body:
+  - type: input
+    id: field
+    attributes:
+      label: Which field?
+      placeholder: e.g., "UIUX Design", "Software Engineering"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section?
+      options:
+        - Overview
+        - Tools (tools.yml)
+        - Automation (what AI can/can't do)
+        - Skills (gaining/losing value)
+        - Career (jobs, salaries)
+        - Voices (practitioner quotes)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: What is outdated or incorrect?
+      placeholder: "The tool X is listed as 'emerging' but it has been widely adopted since..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct-info
+    attributes:
+      label: What should it say instead? (optional)
+      placeholder: The correct information, if you know it
+
+  - type: input
+    id: source
+    attributes:
+      label: Source for the correction (optional)
+      placeholder: https://...

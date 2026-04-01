@@ -1,0 +1,34 @@
+# Add a New Field
+
+Scaffold a new professional field directory from the template.
+
+## Input
+$ARGUMENTS — The field name (e.g., "Graphic Design", "Cybersecurity", "Contract Law")
+
+## Instructions
+
+1. Convert the field name to a kebab-case slug (e.g., "Graphic Design" → "graphic-design")
+2. Determine the appropriate category based on the field:
+   - `engineering` — Software Engineering, Data Science, DevOps, Civil Engineering, etc.
+   - `creative` — UIUX Design, Graphic Design, Copywriting, Music Production, Video/Film, etc.
+   - `security` — Cybersecurity, Information Security, etc.
+   - `business` — Product Management, Marketing, Sales, Consulting, etc.
+   - `healthcare` — Radiology, Nursing, Mental Health, Pharmacy, etc.
+   - `legal` — Contract Law, Litigation, Compliance, etc.
+   - `education` — K-12 Teaching, Higher Education, Corporate Training, etc.
+   - `finance` — Accounting, Investment Banking, Financial Planning, etc.
+   - `science` — Research, Lab Work, etc.
+   - If unclear, ask the user.
+
+3. Create the field directory: `fields/{slug}/`
+4. Copy ALL template files from `fields/_template/` into the new directory
+5. In each file, replace `FIELD_NAME` with the actual field name and `field-slug` with the slug
+6. Set the `category` in overview.md frontmatter
+7. Set `last_updated` and `last_verified` to today's date
+8. Set the contributor to `ketanshetye` with role `author`
+9. Create `updates/` and `papers/` subdirectories with `.gitkeep` files
+
+After scaffolding, tell the user:
+- The directory has been created at `fields/{slug}/`
+- Which files to fill in first (overview.md and tools.yml are highest priority)
+- Remind them to update the README.md field table when ready to publish

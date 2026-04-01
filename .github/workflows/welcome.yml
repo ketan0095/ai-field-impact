@@ -1,0 +1,36 @@
+name: Welcome New Contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            Welcome to AI Field Impact! Thanks for opening your first issue.
+
+            A maintainer will review this soon. In the meantime:
+            - Check out our [Contributing Guide](docs/CONTRIBUTING.md)
+            - Join the [Discussions](../../discussions) for questions
+
+            We appreciate you helping us track AI's impact across professional fields!
+          pr-message: |
+            Welcome to AI Field Impact! Thanks for your first contribution!
+
+            A maintainer will review your PR soon. Here's what to expect:
+            - Automated checks will run (markdown lint, spell check, schema validation)
+            - A maintainer will review the content
+            - You may get feedback — this is collaborative, not adversarial
+
+            Once merged, you'll be credited in the contributors list. Thank you!

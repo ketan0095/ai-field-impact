@@ -1,0 +1,59 @@
+/* Custom styles for AI Field Impact */
+
+.field-header {
+  margin-bottom: 1.5rem;
+}
+
+.field-header .label {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  font-size: 0.85em;
+  border-radius: 4px;
+  background-color: #2d333b;
+  color: #adbac7;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.label-published {
+  background-color: #2ea04366 !important;
+  color: #3fb950 !important;
+}
+
+.label-draft {
+  background-color: #d29922aa !important;
+  color: #e3b341 !important;
+}
+
+.label-review {
+  background-color: #388bfd66 !important;
+  color: #58a6ff !important;
+}
+
+.field-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  font-size: 0.9em;
+  color: #8b949e;
+}
+
+.field-footer a {
+  color: #58a6ff;
+}
+
+/* Tool tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  font-weight: 600;
+}
+
+/* Adoption badges */
+.adoption-widespread { color: #3fb950; }
+.adoption-growing { color: #58a6ff; }
+.adoption-emerging { color: #d29922; }
+.adoption-experimental { color: #8b949e; }

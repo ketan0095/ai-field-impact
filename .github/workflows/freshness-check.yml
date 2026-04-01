@@ -1,0 +1,20 @@
+name: Freshness Check
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"  # First day of every month at 9am UTC
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  check-freshness:
+    name: Check Field Freshness
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python scripts/check-freshness.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,12 @@
+name: General
+description: Meta issues, website bugs, governance, or anything else
+title: "[General]: "
+labels: ["meta"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What's on your mind?
+      placeholder: Describe your issue, idea, or feedback
+    validations:
+      required: true

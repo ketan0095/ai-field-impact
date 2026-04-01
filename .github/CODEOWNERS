@@ -1,0 +1,12 @@
+# Default owners for everything
+* @ketanshetye
+
+# Field-specific owners (add domain experts as they join)
+# fields/healthcare/*    @healthcare-expert
+# fields/legal/*         @legal-expert
+# fields/cybersecurity/* @security-expert
+
+# Infrastructure
+.github/ @ketanshetye
+scripts/ @ketanshetye
+site/    @ketanshetye

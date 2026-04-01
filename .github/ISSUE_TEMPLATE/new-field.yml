@@ -1,0 +1,69 @@
+name: Propose a New Field
+description: Suggest a professional field to add to the knowledge base
+title: "[New Field]: "
+labels: ["new-field", "triage"]
+body:
+  - type: input
+    id: field-name
+    attributes:
+      label: Field Name
+      description: What professional field should we add?
+      placeholder: e.g., "Veterinary Medicine", "Architecture", "Supply Chain Management"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this field belong to?
+      options:
+        - Engineering
+        - Creative
+        - Security
+        - Business
+        - Healthcare
+        - Legal
+        - Education
+        - Finance
+        - Science
+        - Other (specify in description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Your relationship to this field
+      options:
+        - I work in this field
+        - I'm studying this field
+        - I manage people in this field
+        - I'm interested/observing
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief Description
+      description: Why should this field be covered? How is AI impacting it?
+      placeholder: "AI is changing this field because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: tools
+    attributes:
+      label: Known AI Tools (optional)
+      description: List any AI tools you know of that are used in this field
+      placeholder: |
+        - Tool Name (url) - what it does
+        - Tool Name (url) - what it does
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Would you like to write the initial field content?
+      options:
+        - label: "Yes, I'd like to author this field (I'll follow the contributing guide)"

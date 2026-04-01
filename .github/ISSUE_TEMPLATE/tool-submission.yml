@@ -1,0 +1,66 @@
+name: Submit an AI Tool
+description: Add a new AI tool that impacts a professional field
+title: "[Tool]: "
+labels: ["tool-submission"]
+body:
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      placeholder: e.g., "Cursor", "Galileo AI", "Harvey"
+    validations:
+      required: true
+
+  - type: input
+    id: tool-url
+    attributes:
+      label: Tool URL
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: input
+    id: field
+    attributes:
+      label: Which field(s) does this tool impact?
+      placeholder: e.g., "Software Engineering", "UIUX Design", "Legal"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-it-does
+    attributes:
+      label: What does this tool do?
+      placeholder: One-line description of the tool's AI capability
+    validations:
+      required: true
+
+  - type: textarea
+    id: replaces
+    attributes:
+      label: What manual work does it replace or reduce?
+      placeholder: Describe the task that used to be done manually
+
+  - type: dropdown
+    id: adoption
+    attributes:
+      label: Adoption Level
+      options:
+        - Experimental (few early adopters)
+        - Emerging (gaining traction)
+        - Growing (significant adoption)
+        - Widespread (industry standard)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing Model
+      options:
+        - Free
+        - Freemium
+        - Paid
+        - Enterprise
+    validations:
+      required: true

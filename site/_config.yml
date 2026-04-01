@@ -1,0 +1,54 @@
+title: AI Field Impact
+description: How AI is transforming every professional field — tools, automation, skills, and career impact.
+url: "https://ai-field-impact.dev"
+baseurl: ""
+
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+
+# Branding
+color_scheme: dark
+logo: "/assets/images/logo.svg"
+search_enabled: true
+search.heading_level: 3
+
+# Navigation
+nav_sort: case_insensitive
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer
+footer_content: "AI Field Impact is open source under CC BY-SA 4.0. <a href=\"https://github.com/ketanshetye/ai-field-impact\">Contribute on GitHub</a>."
+
+# Collections for field pages
+collections:
+  fields:
+    output: true
+    permalink: /fields/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_fields"
+      type: "fields"
+    values:
+      layout: "field"
+      nav_exclude: false
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - scripts/
+  - "*.py"
+  - CLAUDE.md
+  - .claude/
+  - .github/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - .editorconfig
