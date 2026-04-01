@@ -49,7 +49,9 @@ Status: {status} | Confidence: {confidence} | Last verified: {date}
 - Last 2 papers added
 ```
 
-5. Check if the field's `README.md` is in sync with the actual content:
+5. If you need to verify any tool URLs or check if tools are still active, use the `/playwright-browser` skill. Prefer Playwright over WebSearch/WebFetch for web research.
+
+6. Check if the field's `README.md` is in sync with the actual content:
    - Does the tools table match `tools.yml`?
    - Does the snapshot table match `overview.md`?
    - Are recent updates and papers reflected?

@@ -20,7 +20,9 @@ $ARGUMENTS — The field name or slug
    - Use today's date
    - Create a short slug from the event description
 
-5. Write the file with proper YAML frontmatter and a 2-3 paragraph summary including:
+5. If you need to verify details or fetch the source, use the `/playwright-browser` skill to browse URLs and extract content. Prefer Playwright over WebSearch/WebFetch.
+
+6. Write the file with proper YAML frontmatter and a 2-3 paragraph summary including:
    - What happened
    - What changed as a result
    - What this means for practitioners in this field

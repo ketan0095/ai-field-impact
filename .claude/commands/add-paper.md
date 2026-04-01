@@ -17,7 +17,7 @@ $ARGUMENTS — The field name or slug
    - **Key findings** — 3-5 bullet points of the most relevant findings
    - **What sections does this affect?** — One or more of: tools, automation, skills, career
 
-4. If a URL is provided, try to fetch and read the paper to extract key findings and a summary. Use WebFetch if available.
+4. If a URL is provided, try to fetch and read the paper to extract key findings and a summary. Use the `/playwright-browser` skill to browse and extract content from URLs. For research searches, use Playwright to navigate to Google and search for relevant papers. Prefer Playwright over WebSearch/WebFetch as it has better permission compatibility.
 
 5. Create a new file at: `fields/{slug}/papers/YYYY-MM-{org-or-author-slug}.md`
 

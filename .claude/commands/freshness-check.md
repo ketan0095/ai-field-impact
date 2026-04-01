@@ -23,7 +23,9 @@ Scan all fields for stale data and generate a maintenance report.
    - Are recent updates and papers reflected?
    - Flag any README that is out of sync with its source files.
 
-5. Generate a report in this format:
+5. When checking stale tools, use the `/playwright-browser` skill to verify URLs are still active. Prefer Playwright over WebSearch/WebFetch for web research.
+
+6. Generate a report in this format:
 
 ```
 ## Freshness Report — YYYY-MM-DD
