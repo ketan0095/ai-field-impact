@@ -16,7 +16,14 @@ Scan all fields for stale data and generate a maintenance report.
    - Each tool's `last_verified` date — flag if older than 6 months
    - Count tools that need re-verification
 
-4. Generate a report in this format:
+4. For each field, check `README.md`:
+   - Does it exist? If not, flag as missing.
+   - Does the tools table match `tools.yml` entries?
+   - Does the adoption snapshot match `overview.md`?
+   - Are recent updates and papers reflected?
+   - Flag any README that is out of sync with its source files.
+
+5. Generate a report in this format:
 
 ```
 ## Freshness Report — YYYY-MM-DD
@@ -42,10 +49,15 @@ Scan all fields for stale data and generate a maintenance report.
 |-------|-----------------|
 | ... | tools.yml empty, no voices, no papers |
 
+### README Sync Status
+| Field | README Exists | Tools In Sync | Snapshot In Sync | Updates In Sync |
+|-------|:------------:|:-------------:|:----------------:|:---------------:|
+| ... | ✅/❌ | ✅/❌ | ✅/❌ | ✅/❌ |
+
 ### Recommended Actions
 1. Priority action items based on staleness and gaps
 ```
 
-5. After reporting, ask if the user wants to:
+6. After reporting, ask if the user wants to:
    - Start updating a specific stale field
    - Create GitHub issues for stale items (if the repo is connected)

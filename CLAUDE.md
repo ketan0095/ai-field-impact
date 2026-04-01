@@ -26,6 +26,7 @@ ai-field-impact/
 ├── .claude/commands/            <- Skills for maintaining the repo
 ├── fields/                      <- One directory per professional field
 │   ├── _template/               <- Copy this for new fields
+│   │   ├── README.md            <- Shareable visual summary report
 │   │   ├── overview.md          <- Curated summary (stable, quarterly updates)
 │   │   ├── tools.yml            <- AI tools list (structured, easy to add)
 │   │   ├── automation.md        <- What AI can/can't do
@@ -50,6 +51,7 @@ ai-field-impact/
 
 | File | Changes | Who |
 |------|---------|-----|
+| `README.md` | Auto-updated | Skills — updated when tools, updates, or papers are added |
 | `overview.md` | Quarterly | Maintainers — curated, stable summary |
 | `tools.yml` | Anytime | Anyone — add a row, submit a PR |
 | `automation.md` | Monthly | Practitioners who use the tools |

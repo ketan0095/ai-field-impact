@@ -25,7 +25,13 @@ $ARGUMENTS — The field name or slug
    - What changed as a result
    - What this means for practitioners in this field
 
-6. After creating, tell the user:
-   - The update has been logged
+6. Update the field's `README.md`:
+   - In the "Latest Updates" section, replace the "No updates yet" placeholder (if present) or add to the existing list
+   - Show the update as a bullet: `- **YYYY-MM-DD** — Brief description ([source](url))` with impact badge
+   - Keep only the 5 most recent updates in the README; older ones are in the `updates/` directory
+   - Update the `Last updated` date in the README footer
+
+7. After creating, tell the user:
+   - The update has been logged in both `updates/` and `README.md`
    - Which curated files (overview.md, automation.md, skills.md, career.md) might need updating based on the `affects` tags
    - Whether tools.yml needs a new entry if this was a tool-launch

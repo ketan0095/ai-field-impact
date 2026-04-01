@@ -19,6 +19,7 @@ $ARGUMENTS — The field name or slug
    - `voices.md` — count practitioner quotes
    - `updates/` — list recent updates (last 5)
    - `papers/` — list papers (last 5)
+   - `README.md` — check if it exists and whether it reflects current content
 
 4. Generate a summary report in this format:
 
@@ -48,4 +49,10 @@ Status: {status} | Confidence: {confidence} | Last verified: {date}
 - Last 2 papers added
 ```
 
-5. After reporting, suggest specific actions to improve the field's coverage.
+5. Check if the field's `README.md` is in sync with the actual content:
+   - Does the tools table match `tools.yml`?
+   - Does the snapshot table match `overview.md`?
+   - Are recent updates and papers reflected?
+   - If out of sync, flag it and offer to regenerate the README
+
+6. After reporting, suggest specific actions to improve the field's coverage.

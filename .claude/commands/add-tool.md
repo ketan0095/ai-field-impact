@@ -23,6 +23,12 @@ $ARGUMENTS — The field name or slug (e.g., "uiux-design" or "UIUX Design")
 6. Set `added` to today's date
 7. Set `last_verified` to today's date
 
-8. After adding, tell the user:
-   - The tool has been added
+8. Update the field's `README.md` tools table:
+   - Add the new tool to the appropriate category table in the "AI Tools Landscape" section
+   - Use the same format as existing entries: linked tool name, what it does, adoption indicator (🟢 Widespread, 🟡 Growing, 🟠 Emerging, ⚪ Experimental), pricing
+   - If the README still has the "No tools added yet" placeholder, replace it with a real table
+   - Update the `Last updated` date in the README footer
+
+9. After adding, tell the user:
+   - The tool has been added to both `tools.yml` and `README.md`
    - Suggest creating an update file in `updates/` if this is a notable launch
