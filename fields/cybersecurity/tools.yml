@@ -1,0 +1,25 @@
+# AI Tools for Cybersecurity
+# Add new tools by copying the template entry below.
+# Keep entries sorted alphabetically within each category.
+#
+# Required fields: name, url, category, what_it_does, adoption, pricing, added, last_verified
+# Optional fields: replaces, notes
+
+# Categories for this field (customize per field):
+#   - threat-detection
+#   - vulnerability-management
+#   - incident-response
+#   - security-operations
+#   - penetration-testing
+#   - compliance-audit
+
+- name: "Example Tool"
+  url: "https://example.com"
+  category: "threat-detection"
+  what_it_does: "One-line description of what this tool does"
+  replaces: "What manual work this replaces or reduces"
+  adoption: "experimental"   # experimental | emerging | growing | widespread
+  pricing: "freemium"        # free | freemium | paid | enterprise
+  added: "2026-04-01"
+  last_verified: "2026-04-01"
+  notes: "Optional additional context"
