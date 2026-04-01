@@ -1,25 +1,191 @@
 # AI Tools for Cybersecurity
-# Add new tools by copying the template entry below.
 # Keep entries sorted alphabetically within each category.
 #
 # Required fields: name, url, category, what_it_does, adoption, pricing, added, last_verified
 # Optional fields: replaces, notes
-
-# Categories for this field (customize per field):
+#
+# Categories:
 #   - threat-detection
 #   - vulnerability-management
 #   - incident-response
 #   - security-operations
 #   - penetration-testing
+#   - application-security
+#   - cloud-security
 #   - compliance-audit
 
-- name: "Example Tool"
-  url: "https://example.com"
+# --- threat-detection ---
+
+- name: "CrowdStrike Falcon"
+  url: "https://www.crowdstrike.com/platform/"
   category: "threat-detection"
-  what_it_does: "One-line description of what this tool does"
-  replaces: "What manual work this replaces or reduces"
-  adoption: "experimental"   # experimental | emerging | growing | widespread
-  pricing: "freemium"        # free | freemium | paid | enterprise
-  added: "2026-04-01"
-  last_verified: "2026-04-01"
-  notes: "Optional additional context"
+  what_it_does: "AI-powered threat detection, endpoint protection, and extended detection and response (XDR)"
+  replaces: "Manual threat hunting across endpoints, signature-only antivirus"
+  adoption: "widespread"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+- name: "Darktrace"
+  url: "https://darktrace.com"
+  category: "threat-detection"
+  what_it_does: "Self-learning AI for network anomaly detection and autonomous response"
+  replaces: "Manual network traffic analysis, rule-based IDS"
+  adoption: "growing"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+- name: "SentinelOne Singularity"
+  url: "https://www.sentinelone.com"
+  category: "threat-detection"
+  what_it_does: "Autonomous AI endpoint protection, SIEM, and extended detection across surfaces"
+  replaces: "Manual endpoint monitoring, legacy antivirus, siloed SIEM"
+  adoption: "widespread"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+- name: "Vectra AI"
+  url: "https://www.vectra.ai"
+  category: "threat-detection"
+  what_it_does: "AI-driven threat detection and response for network, cloud, and identity surfaces"
+  replaces: "Manual network threat analysis, siloed detection tools"
+  adoption: "growing"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+# --- vulnerability-management ---
+
+- name: "Tenable"
+  url: "https://www.tenable.com"
+  category: "vulnerability-management"
+  what_it_does: "AI-powered vulnerability management and exposure assessment across attack surfaces"
+  replaces: "Manual vulnerability scanning, spreadsheet-based risk tracking"
+  adoption: "growing"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+# --- incident-response ---
+
+- name: "Dropzone AI"
+  url: "https://www.dropzone.ai"
+  category: "incident-response"
+  what_it_does: "AI SOC analyst automation with autonomous alert triage and investigation"
+  replaces: "Manual Tier 1 alert triage, repetitive incident classification"
+  adoption: "emerging"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+# --- security-operations ---
+
+- name: "IBM QRadar Suite"
+  url: "https://www.ibm.com/qradar"
+  category: "security-operations"
+  what_it_does: "Integrated SIEM, SOAR, and EDR with AI-powered threat detection and response"
+  replaces: "Disconnected security tooling, manual alert correlation"
+  adoption: "widespread"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+- name: "Palo Alto Networks Cortex XSIAM"
+  url: "https://www.paloaltonetworks.com/cortex/cortex-xsiam"
+  category: "security-operations"
+  what_it_does: "AI-driven SOC platform unifying SIEM, XDR, SOAR, and threat intelligence"
+  replaces: "Multi-vendor SOC tool stacks, manual alert correlation"
+  adoption: "growing"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+- name: "Splunk"
+  url: "https://www.splunk.com"
+  category: "security-operations"
+  what_it_does: "AI-powered SIEM and security analytics platform (now part of Cisco)"
+  replaces: "Manual log analysis, rule-based alerting"
+  adoption: "widespread"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+- name: "Stellar Cyber Open XDR"
+  url: "https://stellarcyber.ai"
+  category: "security-operations"
+  what_it_does: "AI-powered open XDR platform for security operations automation"
+  replaces: "Fragmented detection tools, manual event correlation"
+  adoption: "growing"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+# --- penetration-testing ---
+
+- name: "Pentera"
+  url: "https://www.pentera.io"
+  category: "penetration-testing"
+  what_it_does: "Automated penetration testing with AI-driven attack simulation"
+  replaces: "Manual penetration testing for routine assessments"
+  adoption: "emerging"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+# --- application-security ---
+
+- name: "Checkmarx"
+  url: "https://checkmarx.com"
+  category: "application-security"
+  what_it_does: "AI-powered application security testing including SAST, DAST, and SCA"
+  replaces: "Manual code security reviews, standalone static analysis"
+  adoption: "growing"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+- name: "GitHub Copilot"
+  url: "https://github.com/features/copilot"
+  category: "application-security"
+  what_it_does: "AI code assistant with security-focused code review and vulnerability detection"
+  replaces: "Manual code review for common security patterns"
+  adoption: "growing"
+  pricing: "freemium"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+- name: "Snyk"
+  url: "https://snyk.io"
+  category: "application-security"
+  what_it_does: "AI-powered code and dependency security scanning with fix suggestions"
+  replaces: "Manual dependency auditing, vulnerability database lookups"
+  adoption: "growing"
+  pricing: "freemium"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+# --- cloud-security ---
+
+- name: "Wiz"
+  url: "https://www.wiz.io"
+  category: "cloud-security"
+  what_it_does: "AI-powered cloud security posture management and risk prioritization"
+  replaces: "Manual cloud configuration reviews, siloed cloud security tools"
+  adoption: "growing"
+  pricing: "enterprise"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
+
+# --- compliance-audit ---
+
+- name: "SecurityScorecard"
+  url: "https://securityscorecard.com"
+  category: "compliance-audit"
+  what_it_does: "AI-powered third-party risk assessment and continuous security rating"
+  replaces: "Manual vendor risk questionnaires, point-in-time assessments"
+  adoption: "growing"
+  pricing: "paid"
+  added: "2026-04-02"
+  last_verified: "2026-04-02"
