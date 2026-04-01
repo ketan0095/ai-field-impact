@@ -27,7 +27,13 @@ $ARGUMENTS — The field name or slug
    - Key data points that should inform the field's curated files
    - Direct quotes from the paper if available
 
-7. After creating, tell the user:
-   - The paper has been logged
+7. Update the field's `README.md`:
+   - In the "Research & Papers" section, replace the "No papers added yet" placeholder (if present) or add to the existing list
+   - Show the paper as a bullet: `- **Title** — Organization/Author, YYYY-MM ([link](url))` with a one-line finding
+   - Keep only the 5 most recent papers in the README; older ones are in the `papers/` directory
+   - Update the `Last updated` date in the README footer
+
+8. After creating, tell the user:
+   - The paper has been logged in both `papers/` and `README.md`
    - Which curated files should be updated with the paper's findings
    - Any data points from the paper that could update career.md salary/job market info
